@@ -22,6 +22,10 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<String>Need to get your location!</String>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<String>Need to get your location!</String>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<String>We need to have a picture</String>
 	<key>NSCameraUsageDescription</key>
@@ -32,6 +36,16 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>HERECredentials</key>
+  	<dict>
+  	    <key>AccessKeyId</key>
+  	    <string>s0gif8j63kvkl1z3p0I4UA</string>
+  	    <key>AccessKeySecret</key>
+  	    <string>37WoqzBQ0yT7qPaopBxSX6PRbywQLvTX38LcD2sJibSxpysg8VReN0bHkaB3trFDvwxzqi2xnaODUHEV</string>
+  	</dict>
+
+<key>io.flutter.embedded_views_preview</key>
+<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

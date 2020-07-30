@@ -9,6 +9,8 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="places_app"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.here.sdk.access_key_id" android:value="s0gif8j63kvkl1z3p0I4UA"/>
+        <meta-data android:name="com.here.sdk.access_key_secret" android:value="37WoqzBQ0yT7qPaopBxSX6PRbywQLvTX38LcD2sJibSxpysg8VReN0bHkaB3trFDvwxzqi2xnaODUHEV-PyVSw"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
